@@ -48,7 +48,9 @@ Available Ports are:
 
 **1230** - **1237** 8 Goggles! 
 
-If a Goggles accidently disconnects, the Goggles will get the same Port when resumed pluged in. 
+If a Goggles accidently disconnects, the Goggles will get the same Port when resumed pluged in.
+
+Custom Ports can be createt in the StreamProcess.js file
 
 
 
