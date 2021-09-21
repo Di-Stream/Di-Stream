@@ -3,7 +3,7 @@
  **First Software that allows to stream multiple DJI Goggles!**
  
  
- **Just run the Software and plug all your DJI Goggles in the available USB Ports of your Computer.**
+ **Just run the Software and plug in all your DJI Goggles in the available USB Ports of your Computer.**
  
 
  Made by Racers for Racers! ;)
