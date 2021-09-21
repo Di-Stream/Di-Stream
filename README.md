@@ -23,23 +23,35 @@ npm install
 ```
 
 ```sh
-run ./src/index.js
+node ./src/index.js
 ```
 
 Di-Stream will start Node processes for each goggles. The Goggles can be found at:
 
 **127.0.0.1:PORT**
 
-**First** Camera has Port **1230**
+**First** Goggles has Port **1230**
 
-**Second** Camera has Port **1231** ect... 
+**Second** Goggles has Port **1231** ect... 
 
 
 ## OBS
 
 In OBS add new Media devicr and uncheck de Only Local Media Box. 
 
-Now put your Adress in the 
+Now put your Adress in the input and you are ready to go. 
+
+## Software Behavior
+
+The Di-Strea. Software will aitomaticly search for new Goggles and will open a UDP Stream on  the next free Port:
+Available Ports are:
+
+**1230** - **1237** 8 Goggles! 
+
+If a Goggles accidently disconnects, the Goggles will get the same Port when resumed pluged in. 
+
+
+
 
 
 
