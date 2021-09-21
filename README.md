@@ -28,7 +28,7 @@ npm install
 ```
 
 ```sh
-node ./src/index.js
+npm start
 ```
 
 Di-Stream Software will start a Node processe for each goggles. The Goggles can be found at:
