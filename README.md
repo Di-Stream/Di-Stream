@@ -3,16 +3,21 @@
  
 # How to run
 
-1. Download or clone this Repoo
+1. Download or clone this Repo and unzip it
 
-2. Download Ffmpeg.exe unzip it and move the ffmpeg.exe to the Di-Stream folder:
+
+2. Download Ffmpeg.exe, go to the bin folder and move the ffmpeg.exe to the **/Di-Stream** folder:
+  
+  **Dont put the ffmpeg.exe in the /src Folder!!!**
 
 https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
+
 
 3. Install Nodej if you dont have it yet on your system. 
 Link for Binary:
 
 https://nodejs.org/dist/v14.17.6/node-v14.17.6-x86.msi
+
 
 4. Open Command-Line and go to Di-stream folder. For example:
 **cd Downloads/Di-stream** 
