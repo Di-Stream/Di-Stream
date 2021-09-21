@@ -39,7 +39,7 @@ Di-Stream Software will start a Node processe for each goggles. The Goggles can 
 
 In OBS add new Media devicr and uncheck de Only Local Media Box. 
 
-Now put your Adress in the input and you are ready to go. 
+Now put your goggles adress in the input section and you are ready to go. 
 
 ## Software Behavior
 
