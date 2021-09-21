@@ -18,9 +18,13 @@ https://nodejs.org/dist/v14.17.6/node-v14.17.6-x86.msi
 **cd Downloads/Di-stream** 
 then run following commands. 
 
-**npm install**
+```sh
+npm install
+```
 
-**run ./src/index.js**
+```sh
+run ./src/index.js
+```
 
 Di-Stream will start Node processes for each goggles. The Goggles can be found at:
 
