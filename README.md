@@ -1,61 +1,101 @@
 ﻿# Di-Stream! 
-**First Software that allows to stream multiple DJI Goggles!**
  
+ **First Software that allows to stream multiple DJI Goggles!**
+ 
+ Made by Racers for Racers! ;)
+
+                                                                               
+                                                       @ ,#                          
+                                                       * ..                          
+                                 *.                   %#/#                        ,% 
+                                .*%                   &%#                  (/  @     
+                                 @&%@#(///,,,//.   (&@&((,.  .....,,,,,*,*&&@.       
+                           ((   @@%(@@           *&&&&&&%%%&(          **@%%&&&&*    
+                                #&&@@&#         @&&&&&&# @@/             @@&%%@/   **
+                                 *&&&@&%&,     &&&&&&&&@%((/      #&%&&&%&&&@**      
+                                       &&&&@&@##%@%##@%&/% (%%%%&&%&&*               
+                                          *%/###%#&%&@%%%#%&%&%                      
+                 */(                      (%######(@@&%%@@.                //,,,     
+                 ,/(,                  ,@%%*@%%%%##&@&%&#%            /#(/*,.        
+                .#(%%&@@%&@@&%%%%####@&%@&%(&&@%&&#@@@&&&@&&@     .@&@%#&            
+           /*,,,*@&&%@@%(@%,,&&#%%@.     @@#@@@@&@@     /%%@@&&&#*@&@@*%            
+       *.,.,    /#/(@/&&##%&(           .,,,%%(.#.          &&%&,&#&&@##*/         
+     *,         ,&&@%,.,                                        @@@%@@@**/*         
+                *,//*.                                           ,.%%**             
+                                                                                    
+
+
+
 # How to run
 
 1. Download or clone this Repo and unzip it
-
+---
 
 2. Download Ffmpeg.exe, go to the bin folder and move the ffmpeg.exe to the **/Di-Stream** folder:
-  
-  **Dont put the ffmpeg.exe in the /src Folder!!!**
 
-https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
+   https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
+
+   Your folder should look like this!
+  
+    ![Unbenannt](https://user-images.githubusercontent.com/61356201/134235188-adb2a652-57a5-4fba-8d42-8406cded8615.PNG)
+
+---
 
 
 3. Install Nodej if you dont have it yet on your system. 
-Link for Binary:
+   Link for Binary:
 
-https://nodejs.org/dist/v14.17.6/node-v14.17.6-x86.msi
-
+   https://nodejs.org/dist/v14.17.6/node-v14.17.6-x86.msi
+---
 
 4. Open Command-Line and go to Di-stream folder. For example:
 **cd Downloads/Di-stream** 
 then run following commands. 
 
-```sh
-npm install
+
+```
+npm instal
 ```
 
-```sh
+```
 npm start
 ```
 
-Di-Stream Software will start a Node processe for each goggles. The Goggles can be found at:
+   Di-Stream Software will start a Node process for each goggls. The Goggles can be found at:
 
-**127.0.0.1:PORT**
+   **127.0.0.1:PORT**
 
-**First** Goggles has Port **1230**
+   **First** Goggles has Port **1230**
 
-**Second** Goggles has Port **1231** ect... 
+   **Second** Goggles has Port **1231** ect... 
 
-
+---
 ## OBS
 
-In OBS add new Media devicr and uncheck de Only Local Media Box. 
+  In OBS add new Media device and uncheck de only local Media Box. 
 
-Now put your goggles adress in the input section and you are ready to go. 
+  Now put your goggles adress in the input section and you are ready to go. 
 
-## Software Behavior
+  ## Software Behavior
 
-The Di-Stream Software will automaticly search for new Goggles and will open a UDP Stream on  the next free Port:
-Available Ports are:
+  The Di-Stream Software will automaticly search for new Goggles and will open a UDP Stream on  the next free Port.
+  Available Ports are:
 
-**1230** - **1237** 8 Goggles! 
+  **1230** - **1237** 8 Goggles! 
 
-If a Goggles accidently disconnects, the Goggles will get the same Port when resumed pluged in.
+  If a Goggles accidently disconnects, the Goggles will get the same Port when resumed pluged in.
 
-Custom Ports can be createt in the StreamProcess.js file
+  Custom Ports can be createt in the StreamProcess.js file
+
+
+---
+
+## Code Contributors
+[![](https://github.com/Cherrytomate.png?size=50)](https://github.com/Cherrytomate)
+[![](https://github.com/neilschuerch.png?size=50)](https://github.com/neilschuerch)
+
+
+_This README was generated with ❤️ by Cherrytomate 
 
 
 
