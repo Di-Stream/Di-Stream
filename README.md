@@ -5,7 +5,7 @@
 
 1. Download or clone this Repoo
 
-2. Download Ffmpeg.exe unzip it and move the ffmpeg. exe to bin folder: https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
+2. Download Ffmpeg.exe unzip it and move the ffmpeg. exe to bin folder:__ https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
 
 3. Install Nodej if you dont have it yet on your system. 
 Link for Binary:
