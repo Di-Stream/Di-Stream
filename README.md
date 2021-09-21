@@ -5,7 +5,7 @@
 
 1. Download or clone this Repoo
 
-2. Download Ffmpeg.exe unzip it and move the ffmpeg. exe to bin folder:
+2. Download Ffmpeg.exe unzip it and move the ffmpeg. exe to the Di-Stream folder:
 
 https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
 
