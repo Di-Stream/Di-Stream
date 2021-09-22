@@ -36,7 +36,7 @@
 
 The following open source packages are used in this project:
 * ffmpeg
-* Nodejs
+
 
 </br>
 
@@ -45,12 +45,11 @@ The following open source packages are used in this project:
 
 - [1. Download or clone this Repo and unzip it](#1-download-or-clone-this-repo-and-unzip-it)
 - [2. Install ffmpeg](#2-install-ffmpeg)
-- [3. Nodejs](#3-nodejs)
-- [4. Use](#4-use)
-- [5. Software Behavior](#5-software-behavior)
-- [6. OBS](#6-obs)
-- [7. Yargs](#7-yargs)
-- [8. License](#8-license)
+- [3. Use](#4-use)
+- [4. Software Behavior](#5-software-behavior)
+- [5. OBS](#6-obs)
+- [6. Yargs](#7-yargs)
+- [7. License](#8-license)
   </br>
   </br>
 <h1 align="center"> Let's Go!  </h1>
@@ -88,38 +87,9 @@ Install ffmpeg with following code:
    sudo apt install ffmpeg
    ```
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-
-## 3. Nodejs
-
-#### Use Version 16.9.1 or higher!
-Install Currennt Nodejs if you don't have it yet on your system.   
-Important ! Install version <ins>16.9.1</ins> or higher.
-
-### Windows:
-
-Install NodeJs in Windows with following Installer:  
-https://nodejs.org/en/download/current/
-### Linux:
-
-Download Current NodeJs version from here:  
-https://nodejs.org/dist/v16.9.1/node-v16.9.1.tar.gz
-
-Unzip it to your favorite Folder
-Set Path Variable with:
-
-   ```
-   export PATH=$PATH:/place/with/the/file
-   ```
-Check Path with:
-   ```
-   echo "$PATH"
-   ```
-
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## 4. Use
+## 3. Use
 
 ### Windows:
 Just run the .exe
@@ -136,7 +106,7 @@ For example:
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-## 5. Software Behavior
+## 4. Software Behavior
 Di-Stream Software will start a Node process for each goggles. The Goggles can be found at:
 
 **127.0.0.1:PORT**
@@ -156,7 +126,7 @@ Custom Ports can be createt in the StreamProcess.js file
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## 6. OBS
+## 5. OBS
 
 In OBS add new Media device and uncheck de only local Media Box.  
 Now put your goggles adress in the input section and you are ready to go.
@@ -170,7 +140,7 @@ Now put your goggles adress in the input section and you are ready to go.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## 7. Yargs
+## 6. Yargs
 
 Following Commands can be used:
    ```
@@ -190,7 +160,7 @@ For example:
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## 8. License
+## 7. License
 
 Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). See [notices](notices.md) for complete details, including attribution guidelines, contribution terms, and software and third-party licenses and permissions.
 
