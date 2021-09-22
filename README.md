@@ -58,7 +58,11 @@ The following open source packages are used in this project:
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-## 1. Download or clone this Repo and unzip it
+## 1. Download Binary 
+
+https://github.com/Di-Stream/Di-Stream/releases/new
+
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
