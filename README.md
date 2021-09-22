@@ -35,34 +35,29 @@
 1. Download or clone this Repo and unzip it
 ---
 
-2. Download Ffmpeg.exe, go to the bin folder and move the ffmpeg.exe to the **/Di-Stream** folder:
-
-   https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
-
+2. Download Ffmpeg.exe, go to the bin folder and move the ffmpeg.exe to the **/Di-Stream** folder:  
+   https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z  
    Your folder should look like this!
-  
-    ![Unbenannt](https://user-images.githubusercontent.com/61356201/134235188-adb2a652-57a5-4fba-8d42-8406cded8615.PNG)
+   ![Unbenannt](https://user-images.githubusercontent.com/61356201/134235188-adb2a652-57a5-4fba-8d42-8406cded8615.PNG)
 
 ---
 
-
 3. Install Nodej if you dont have it yet on your system. 
-   Link for Binary:
-
+   Link for Binary:  
    https://nodejs.org/dist/v14.17.6/node-v14.17.6-x86.msi
 ---
 
 4. Open Command-Line and go to Di-stream folder. For example:
-**cd Downloads/Di-stream** 
+```cd Downloads/Di-stream```
 then run following commands. 
 
 
 ```
-npm instal
+npm install
 ```
 
 ```
-npm start
+npm run start
 ```
 
    Di-Stream Software will start a Node process for each goggls. The Goggles can be found at:
@@ -76,11 +71,11 @@ npm start
 ---
 ## OBS
 
-  In OBS add new Media device and uncheck de only local Media Box. 
+In OBS add new Media device and uncheck de only local Media Box.
 
-  Now put your goggles adress in the input section and you are ready to go. 
+Now put your goggles adress in the input section and you are ready to go. 
 
-  ## Software Behavior
+## Software Behavior
 
   The Di-Stream Software will automaticly search for new Goggles and will open a UDP Stream on  the next free Port.
   Available Ports are:
@@ -94,12 +89,18 @@ npm start
 
 ---
 
+## License
+
+Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). See [notices](notices.md) for complete details, including attribution guidelines, contribution terms, and software and third-party licenses and permissions.
+
+---
+
 ## Code Contributors
 [![](https://github.com/Cherrytomate.png?size=50)](https://github.com/Cherrytomate)
 [![](https://github.com/neilschuerch.png?size=50)](https://github.com/neilschuerch)
 
 
-_This README was generated with ❤️ by Cherrytomate 
+**This README was generated with ❤️ by Cherrytomate**
 
 
 
