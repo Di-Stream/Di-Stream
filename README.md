@@ -193,6 +193,7 @@ Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.
 
 <!-- CONTRIBUTORS -->
 <h2 id="contributors"> :scroll: Contributors</h2>
+
 [![](https://github.com/Cherrytomate.png?size=50)](https://github.com/Cherrytomate)
 [![](https://github.com/neilschuerch.png?size=50)](https://github.com/neilschuerch)
 
