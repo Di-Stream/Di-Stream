@@ -37,7 +37,7 @@
 
 2. Download Ffmpeg.exe, go to the bin folder and move the ffmpeg.exe to the **/Di-Stream** folder:  
    https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z  
-   Your folder should look like this!
+   Your folder should look like this!  
    ![Unbenannt](https://user-images.githubusercontent.com/61356201/134235188-adb2a652-57a5-4fba-8d42-8406cded8615.PNG)
 
 ---
