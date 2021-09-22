@@ -2,26 +2,27 @@
   "name": "di-stream",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "src/index.js",
   "bin": "src/index.js",
   "scripts": {
-    "start": "node --experimental-specifier-resolution=node ./src/index.js",
+    "start": "node ./src/index.js",
     "start:dev": "node ./src/index.js",
     "build": "pkg .",
     "build:dev": "pkg . --debug"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Di-Stream",
+  "license": "CC-BY-4.0",
   "dependencies": {
     "node-color-log": "^5.3.1",
     "usb": "^1.7.2",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "yargs": "^17.1.1"
   },
   "devDependencies": {
     "pkg": "^5.3.2"
   },
   "pkg": {
-    "scripts": "src/**/*.js"
+    "scripts": "src/**/*.js",
+    "outputPath": "dist"
   }
 }

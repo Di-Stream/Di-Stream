@@ -1,4 +1,4 @@
-## Licenses
+__ Licenses
 
 Content is copyright © Open Source Guides authors, released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/), which gives you permission to use content for almost any purpose (but does not grant you any trademark permissions), so long as you note the license and give credit, such as follows:
 
@@ -13,6 +13,6 @@ This means you can use the code and content in this repository except for GitHub
 
 When you contribute to this repository you are doing so under the above licenses.
 
-## Permissions
+__ Permissions
 
 -

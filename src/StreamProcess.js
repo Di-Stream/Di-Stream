@@ -1,21 +1,25 @@
-import cp from "child_process";
-import logger from "node-color-log";
+const cp = require('child_process');
+const logger = require('node-color-log');
 
-export class StreamProcess {
-    static URL = "udp://127.0.0.1"
+class StreamProcess {
+    static URL = "127.0.0.1"
 
-    port;
+    _port;
     _proc;
 
     constructor(port) {
-        this.port = port;
+        this._port = port;
         logger.debug("Creating StreamProcess on port " + this.port)
 
         this._createProcess();
     }
 
+    get port() {
+        return this._port;
+    }
+
     _createProcess() {
-        let full_url = (StreamProcess.URL + ":" + this.port);
+        let full_url = ("udp://" + StreamProcess.URL + ":" + this.port);
         logger.debug("Creating Process on url " + full_url);
         this._proc = cp.spawn('ffmpeg', [
             '-i', '-',
@@ -38,3 +42,4 @@ export class StreamProcess {
         this._proc.kill();
     }
 }
+module.exports = StreamProcess;

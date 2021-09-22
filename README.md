@@ -1,4 +1,4 @@
-﻿# Di-Stream! 
+﻿_ Di-Stream! 
  
  **First Software that allows to stream multiple DJI Goggles!**
  
@@ -9,28 +9,28 @@
  Made by Racers for Racers! ;)
 
                                                                                
-                                                       @ ,#                          
+                                                       @ ,_                          
                                                        * ..                          
-                                 *.                   %#/#                        ,% 
-                                .*%                   &%#                  (/  @     
-                                 @&%@#(///,,,//.   (&@&((,.  .....,,,,,*,*&&@.       
+                                 *.                   %_/_                        ,% 
+                                .*%                   &%_                  (/  @     
+                                 @&%@_(///,,,//.   (&@&((,.  .....,,,,,*,*&&@.       
                            ((   @@%(@@           *&&&&&&%%%&(          **@%%&&&&*    
-                                #&&@@&#         @&&&&&&# @@/             @@&%%@/   **
-                                 *&&&@&%&,     &&&&&&&&@%((/      #&%&&&%&&&@**      
-                                       &&&&@&@##%@%##@%&/% (%%%%&&%&&*               
-                                          *%/###%#&%&@%%%#%&%&%                      
-                 */(                      (%######(@@&%%@@.                //,,,     
-                 ,/(,                  ,@%%*@%%%%##&@&%&#%            /#(/*,.        
-                .#(%%&@@%&@@&%%%%####@&%@&%(&&@%&&#@@@&&&@&&@     .@&@%#&            
-           /*,,,*@&&%@@%(@%,,&&#%%@.     @@#@@@@&@@     /%%@@&&&#*@&@@*%            
-       *.,.,    /#/(@/&&##%&(           .,,,%%(.#.          &&%&,&#&&@##*/         
+                                _&&@@&_         @&&&&&&_ @@/             @@&%%@/   **
+                                 *&&&@&%&,     &&&&&&&&@%((/      _&%&&&%&&&@**      
+                                       &&&&@&@__%@%__@%&/% (%%%%&&%&&*               
+                                          *%/___%_&%&@%%%_%&%&%                      
+                 */(                      (%______(@@&%%@@.                //,,,     
+                 ,/(,                  ,@%%*@%%%%__&@&%&_%            /_(/*,.        
+                ._(%%&@@%&@@&%%%%____@&%@&%(&&@%&&_@@@&&&@&&@     .@&@%_&            
+           /*,,,*@&&%@@%(@%,,&&_%%@.     @@_@@@@&@@     /%%@@&&&_*@&@@*%            
+       *.,.,    /_/(@/&&__%&(           .,,,%%(._.          &&%&,&_&&@__*/         
      *,         ,&&@%,.,                                        @@@%@@@**/*         
                 *,//*.                                           ,.%%**             
                                                                                     
 
 
 
-# How to run
+_ How to run
 
 1. Download or clone this Repo and unzip it
 ---
@@ -69,13 +69,13 @@ npm run start
    **Second** Goggles has Port **1231** ect... 
 
 ---
-## OBS
+__ OBS
 
 In OBS add new Media device and uncheck de only local Media Box.
 
 Now put your goggles adress in the input section and you are ready to go. 
 
-## Software Behavior
+__ Software Behavior
 
   The Di-Stream Software will automaticly search for new Goggles and will open a UDP Stream on  the next free Port.
   Available Ports are:
@@ -89,13 +89,13 @@ Now put your goggles adress in the input section and you are ready to go.
 
 ---
 
-## License
+__ License
 
 Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). See [notices](notices.md) for complete details, including attribution guidelines, contribution terms, and software and third-party licenses and permissions.
 
 ---
 
-## Code Contributors
+__ Code Contributors
 [![](https://github.com/Cherrytomate.png?size=50)](https://github.com/Cherrytomate)
 [![](https://github.com/neilschuerch.png?size=50)](https://github.com/neilschuerch)
 
