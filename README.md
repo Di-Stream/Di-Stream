@@ -1,7 +1,7 @@
 ﻿
 <h1 align="center"> Di-Stream </h1>
 <h3 align="center"> First Software that allows to stream multiple DJI Goggles! </h3>  
-<h3 align="center"> Just run the Software and plug in all your DJI Goggles in the available USB Ports of your Computer.s! </h3> 
+<h3 align="center"> Just run the Software and plug in all your DJI Goggles in the available USB Ports of your Computer! </h3> 
 </br>
 <h4 align="center"> Made by Racers for Racers! ; </h4> 
 
