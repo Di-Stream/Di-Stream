@@ -58,7 +58,7 @@ then run following commands.
 
 
 ```
-npm instal
+npm install
 ```
 
 ```
