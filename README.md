@@ -45,11 +45,11 @@ The following open source packages are used in this project:
 
 - [1. Download or clone this Repo and unzip it](#1-download-or-clone-this-repo-and-unzip-it)
 - [2. Install ffmpeg](#2-install-ffmpeg)
-- [3. Use](#4-use)
-- [4. Software Behavior](#5-software-behavior)
-- [5. OBS](#6-obs)
-- [6. Yargs](#7-yargs)
-- [7. License](#8-license)
+- [3. Use](#3-use)
+- [4. Software Behavior](#4-software-behavior)
+- [5. OBS](#5-obs)
+- [6. Yargs](#6-yargs)
+- [7. License](#7-license)
   </br>
   </br>
 <h1 align="center"> Let's Go!  </h1>
