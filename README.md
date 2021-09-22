@@ -152,11 +152,13 @@ The following open source packages are used in this project:
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 6. OBS
-![alt text](http://url/to/img.png)
 
-In OBS add new Media device and uncheck de only local Media Box.
-
+In OBS add new Media device and uncheck de only local Media Box.  
 Now put your goggles adress in the input section and you are ready to go. 
+
+![](https://github.com/Di-Stream/Di-Stream/blob/main/assets/obs_example.png)
+
+
 
 
 
