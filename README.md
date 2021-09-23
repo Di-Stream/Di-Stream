@@ -59,7 +59,7 @@ The following open source packages are used in this project:
 
 ## 1. Download Binary 
 
-https://github.com/Di-Stream/Di-Stream/releases/new
+https://github.com/Di-Stream/Di-Stream/releases
 
 
 
