@@ -65,10 +65,11 @@ https://github.com/Di-Stream/Di-Stream/releases
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## 2. Install ffmpeg
+## 2. Install
 
 
 ### Windows:
+#### ffmpeg
 Download Essentials from here:  
 https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
 
@@ -80,19 +81,26 @@ For example:
    ```
    set PATH=%PATH%;C:\your\path\to\ffmpeg\folder
    ```
-### Linux:
+   
+#### LibUSB
+Install [LibUSB Driver](https://zadig.akeo.ie/)  
 
+### Linux:
+#### ffmpeg
 Install ffmpeg with following code:
    ```
    sudo apt install ffmpeg
    ```
 
+#### LibUSB
+   ```
+   sudo apt install libusb-1.0-0
+   ```
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## 3. Use
 
 ### Windows:
-* Install [LibUSB Driver](https://zadig.akeo.ie/)  
 * Run the .exe
 
 ### Linux:
