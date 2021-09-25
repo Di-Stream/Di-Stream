@@ -92,12 +92,13 @@ Install ffmpeg with following code:
 ## 3. Use
 
 ### Windows:
-Just run the .exe
+* Install [LibUSB Driver](https://zadig.akeo.ie/)  
+* Run the .exe
 
 ### Linux:
-Go to folder where the Di-Stream binary is
-Run the binary
-For example:
+* Go to folder where the Di-Stream binary is
+* Run the binary
+*For example:
    ```
    ./di-stream-linux
    ```
