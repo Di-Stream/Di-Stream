@@ -79,7 +79,7 @@ Add System Path Variable:
 For example:
 
    ```
-   set PATH=%PATH%;C:\your\path\to\ffmpeg\folder
+   C:\> setx /M path "%PATH%;C:\Users\fritz\Downloads"
    ```
    
 #### LibUSB
