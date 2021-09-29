@@ -7,14 +7,18 @@
   "scripts": {
     "start": "node ./src/index.js",
     "start:dev": "node ./src/index.js -v",
-    "build:linux": "npm clean-install --arch=x64 --platform=linux && pkg --target node14-linux-x64 --compress GZip --output di-stream_linux .",
-    "build:windows": "npm clean-install --arch=x64 --platform=win32 && pkg --target node14-win-x64 --compress GZip --output di-stream_windows .",
+    "build:linux": "npm clean-install --arch=x64 --platform=linux && pkg --target node14-linux-x64 --compress GZip --output dist/di-stream_linux .",
+    "build:windows": "npm clean-install --arch=x64 --platform=win32 && pkg --target node14-win-x64 --compress GZip --output dist/di-stream_windows .",
     "build": "npm run build:linux && npm run build:windows"
   },
   "author": "Di-Stream",
   "license": "CC-BY-4.0",
   "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
     "node-color-log": "^5.3.1",
+    "path": "^0.12.7",
+    "socket.io": "^4.2.0",
     "usb": "^1.7.2",
     "uuid": "^8.3.2",
     "yargs": "^17.1.1"
@@ -23,7 +27,9 @@
     "pkg": "^5.3.2"
   },
   "pkg": {
-    "assets": ["node_modules/**/*"],
+    "assets": [
+      "node_modules/**/*"
+    ],
     "scripts": "src/**/*.js",
     "outputPath": "dist"
   }

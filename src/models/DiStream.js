@@ -3,6 +3,7 @@ const logger = require('node-color-log');
 const { v4: uuidv4 } = require('uuid');
 const Goggles = require('./Goggles');
 const StreamProcess = require('./StreamProcess');
+const WebServer = require("./WebServer");
 
 /**
  * Represents the DiStream Object
@@ -11,11 +12,13 @@ class DiStream {
     static DEFAULT_PORT = 1230;
 
     _goggles_list = [];
+    _webServer;
 
     constructor() {
         // starts the interval for checking the connected usb devices
         setInterval(() => this._checkGoggles(), 3000);
         logger.color('green').log("Started looking for goggles.");
+        this._webServer = new WebServer();
     }
 
     /**
@@ -49,12 +52,14 @@ class DiStream {
                 let port = this._getAvailablePort();
 
                 logger.color('green').info("New Goggles found! Running on Port " + port + ". (" + (this._goggles_list.length + 1) + " connected)");
+                this._webServer.emitSocketData('goggles_change', this._goggles_list.map(goggles => goggles.stream_process.fullUrl));
 
                 let stream_process = new StreamProcess(port);
                 let goggles = new Goggles(device, stream_process, (o) => {
                     this._goggles_list = this._goggles_list.filter(goggle => goggle.id !== o.id);
 
                     logger.color('green').info("Goggles on Port " + o.stream_process.port + " disconnected. (" + this._goggles_list.length + " connected)");
+                    this._webServer.emitSocketData('goggles_change', this._goggles_list.map(goggles => goggles.stream_process.fullUrl));
                 });
                 this._goggles_list.push(goggles);
 
