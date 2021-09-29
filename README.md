@@ -1,12 +1,11 @@
-﻿
 <h1 align="center"> Di-Stream </h1>
 <h3 align="center"> First Software that allows to stream multiple DJI Goggles! </h3>  
-<h3 align="center"> Just run the Software and plug in all your DJI Goggles in the available USB Ports of your Computer.s! </h3> 
+<h3 align="center"> Just run the Software and plug in all your DJI Goggles in the available USB Ports of your Computer! </h3> 
 </br>
-<h4 align="center"> Made by Racers for Racers! ; </h4> 
+<h4 align="center"> Made by Racers for Racers! ;) </h4> 
 
 </br>
- 
+
                                                        @ ,_                          
                                                        * ..                          
                                  *.                   %_/_                        ,% 
@@ -32,12 +31,12 @@
 <!-- PREREQUISITES -->
 <h2 id="prerequisites"> :fork_and_knife: Prerequisites</h2>
 
-[![Made withJavascript](https://img.shields.io/badge/made%20with%20-Javscript-orange)](https://jupyter.org/try) 
+[![Made withJavascript](https://img.shields.io/badge/made%20with%20-Javscript-orange)](https://jupyter.org/try)
 
 
 The following open source packages are used in this project:
 * ffmpeg
-* Nodejs
+
 
 </br>
 
@@ -46,124 +45,111 @@ The following open source packages are used in this project:
 
 - [1. Download or clone this Repo and unzip it](#1-download-or-clone-this-repo-and-unzip-it)
 - [2. Install ffmpeg](#2-install-ffmpeg)
-- [3. Nodejs](#3-nodejs)
-- [4. Use](#4-use)
-- [5. Software Behavior](#5-software-behavior)
-- [6. OBS](#6-obs)
-- [7. Yargs](#7-yargs)
-- [8. License](#8-license)
+- [3. Use](#3-use)
+- [4. Software Behavior](#4-software-behavior)
+- [5. OBS](#5-obs)
+- [6. Yargs](#6-yargs)
+- [7. License](#7-license)
   </br>
-</br>
+  </br>
 <h1 align="center"> Let's Go!  </h1>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-## 1. Download or clone this Repo and unzip it
+## 1. Download Binary 
+
+https://github.com/Di-Stream/Di-Stream/releases
+
+
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## 2. Install ffmpeg
+## 2. Install
 
 
-   ### Windows:
-   Download Essentials from here:  
-   https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z  
+### Windows:
+#### ffmpeg
+Download Essentials from here:  
+https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z
 
-   Unzip it and move it to your favourite program folder
-   Add System Path Variable:
+Unzip it and move it to your favourite program folder.  
+Add System Path Variable:
 
-   For example:
+For example:
 
    ```
    set PATH=%PATH%;C:\your\path\to\ffmpeg\folder
    ```
-   ### Linux:
+   
+#### LibUSB
+Install [LibUSB Driver](https://zadig.akeo.ie/)  
 
-   Install ffmpeg with following code:
+### Linux:
+#### ffmpeg
+Install ffmpeg with following code:
    ```
    sudo apt install ffmpeg
    ```
 
+#### LibUSB
+   ```
+   sudo apt install libusb-1.0-0
+   ```
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-
-## 3. Nodejs 
-
-#### Use Version 16.9.1 or higher!
-   Install Currennt Nodejs if you don't have it yet on your system.   
-   Important ! Install version <ins>16.9.1</ins> or higher
-
-   ### Windows:
-
-   Install NodeJs in Windows with following Installer:  
-   https://nodejs.org/en/download/current/
-   ### Linux:
-
-   Download Current NodeJs version from here:  
-   https://nodejs.org/dist/v16.9.1/node-v16.9.1.tar.gz  
-
-   Unzip it to your favorite Folder
-   Set Path Variable with:
-
-   ```
-   export PATH=$PATH:/place/with/the/file
-   ```
-   Check Path with:
-   ```
-   echo "$PATH"
-   ```
-
-
-   ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## 4. Use
+## 3. Use
 
 ### Windows:
-   Just run the .exe
+* Run the .exe
 
 ### Linux:
-   Go to folder where the Di-Stream binary is 
-   Run the binary 
-   For example:
+* Go to folder where the Di-Stream binary is
+* Run the binary
+*For example:
    ```
    ./di-stream-linux
    ```
 
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
-## 5. Software Behavior
-   Di-Stream Software will start a Node process for each goggls. The Goggles can be found at:
+## 4. Software Behavior
+Di-Stream Software will start a Node process for each goggles. The Goggles can be found at:
 
-   **127.0.0.1:PORT**
+**127.0.0.1:PORT**
 
-   **First** Goggles has Port **1230**
+**First** Goggles has Port **1230**
 
-   **Second** Goggles has Port **1231** ect...
+**Second** Goggles has Port **1231** ect...
 
-   The Di-Stream Software will automaticly search for new Goggles and will open a UDP Stream on  the next free Port.
-   Available Ports are:
+The Di-Stream Software will automaticly search for new Goggles and will open a UDP Stream on  the next free Port.
+Available Ports are:
 
-   **1230** - **1237** 8 Goggles!
+**1230** - **1237** 8 Goggles!
 
-   If a Goggles accidently disconnects, the Goggles will get the same Port when resumed pluged in.
+If a Goggles accidently disconnects, the Goggles will get the same Port when resumed pluged in.
 
-   Custom Ports can be createt in the StreamProcess.js file
+Custom Ports can be createt in the StreamProcess.js file
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## 6. OBS
-![alt text](http://url/to/img.png)
+## 5. OBS
 
-In OBS add new Media device and uncheck de only local Media Box.
+In OBS add new Media device and uncheck de only local Media Box.  
+Now put your goggles adress in the input section and you are ready to go.
 
-Now put your goggles adress in the input section and you are ready to go. 
+![](https://github.com/Di-Stream/Di-Stream/blob/main/assets/obs_example.png)
+
+
 
 
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## 7. Yargs
+## 6. Yargs
 
 Following Commands can be used:
    ```
@@ -183,19 +169,33 @@ For example:
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## 8. License
+## 7. License
 
 Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). See [notices](notices.md) for complete details, including attribution guidelines, contribution terms, and software and third-party licenses and permissions.
 
----
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- CONTRIBUTORS -->
-<h2 id="contributors"> :scroll: Contributors</h2>
+
+## 8. Contributors
+
+
 [![](https://github.com/Cherrytomate.png?size=50)](https://github.com/Cherrytomate)
 [![](https://github.com/neilschuerch.png?size=50)](https://github.com/neilschuerch)
 
 
 **This README was generated with ❤️ by Cherrytomate**
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
