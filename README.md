@@ -83,7 +83,19 @@ For example:
    ```
    
 #### LibUSB
-Install [LibUSB Driver](https://zadig.akeo.ie/)  
+That the goggles can be dedected properly, you need to install libusb driver.  
+Use Zadig driver installer und follwing instructions:  
+
+Install [LibUSB Driver](https://zadig.akeo.ie/)   
+
+1. Download, install, and run Zadig.  
+2. Power the goggles and connect them to the computer.  
+3. In Zadig, select 'List All Devices' from the 'Options' men.  
+4. Find the 'BULK Interface' device. It won't have a driver installed.  
+5. Install the 'WinUSB' driver for this interface. It might take a while.  
+
+</br>
+
 
 ### Linux:
 #### ffmpeg
