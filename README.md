@@ -1,10 +1,10 @@
 <h1 align="center"> Di-Stream </h1>
 <h3 align="center"> First Software that allows to stream multiple DJI Goggles! </h3>  
 <h3 align="center"> Just run the Software and plug in all your DJI Goggles in the available USB Ports of your Computer! </h3> 
-</br>
+<br>
 <h4 align="center"> Made by Racers for Racers! ;) </h4> 
 
-</br>
+<br>
 
                                                        @ ,_                          
                                                        * ..                          
@@ -25,7 +25,7 @@
                 *,//*.                                           ,.%%**             
 
 
-</br>
+<br>
 
 
 <!-- PREREQUISITES -->
@@ -38,7 +38,7 @@ The following open source packages are used in this project:
 * ffmpeg
 
 
-</br>
+<br>
 
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents"> :book: Table of Contents</h2>
@@ -50,11 +50,11 @@ The following open source packages are used in this project:
 - [5. OBS](#5-obs)
 - [6. Yargs](#6-yargs)
 - [7. License](#7-license)
-  </br>
-  </br>
+  <br>
+  <br>
 <h1 align="center"> Let's Go!  </h1>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](./assets/rainbow.png)
 
 
 ## 1. Download Binary 
@@ -63,7 +63,7 @@ https://github.com/Di-Stream/Di-Stream/releases
 
 
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](./assets/rainbow.png)
 
 ## 2. Install
 
@@ -94,7 +94,7 @@ Install [LibUSB Driver](https://zadig.akeo.ie/)
 4. Find the 'BULK Interface' device. It won't have a driver installed.  
 5. Install the 'WinUSB' driver for this interface. It might take a while.  
 
-</br>
+<br>
 
 
 ### Linux:
@@ -109,7 +109,7 @@ Install ffmpeg with following code:
    sudo apt install libusb-1.0-0
    ```
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](./assets/rainbow.png)
 ## 3. Use
 
 ### Windows:
@@ -117,14 +117,14 @@ Install ffmpeg with following code:
 
 ### Linux:
 * Go to folder where the Di-Stream binary is
-* Run the binary
-*For example:
-   ```
-   ./di-stream-linux
-   ```
+* Run:
+```
+sudo chmod +x ./di-stream-linux
+sudo ./di-stream-linux
+```
 
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](./assets/rainbow.png)
 
 
 ## 4. Software Behavior
@@ -145,7 +145,7 @@ If a Goggles accidently disconnects, the Goggles will get the same Port when res
 
 Custom Ports can be createt in the StreamProcess.js file
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](./assets/rainbow.png)
 
 ## 5. OBS
 
@@ -159,7 +159,7 @@ Now put your goggles adress in the input section and you are ready to go.
 
 
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](./assets/rainbow.png)
 
 ## 6. Yargs
 
@@ -179,13 +179,13 @@ For example:
    ./di-stream-linux --port 1000
    ```
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](./assets/rainbow.png)
 
 ## 7. License
 
 Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). See [notices](notices.md) for complete details, including attribution guidelines, contribution terms, and software and third-party licenses and permissions.
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](./assets/rainbow.png)
 
 
 ## 8. Contributors
@@ -195,25 +195,4 @@ Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.
 [![](https://github.com/neilschuerch.png?size=50)](https://github.com/neilschuerch)
 
 
-**This README was generated with ❤️ by Cherrytomate**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**This README was created with ❤**

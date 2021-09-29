@@ -6,9 +6,10 @@
   "bin": "src/index.js",
   "scripts": {
     "start": "node ./src/index.js",
-    "start:dev": "node ./src/index.js",
-    "build": "pkg .",
-    "build:dev": "pkg . --debug"
+    "start:dev": "node ./src/index.js -v",
+    "build:linux": "npm clean-install --arch=x64 --platform=linux && pkg --target node14-linux-x64 --compress GZip --output di-stream_linux .",
+    "build:windows": "npm clean-install --arch=x64 --platform=win32 && pkg --target node14-win-x64 --compress GZip --output di-stream_windows .",
+    "build": "npm run build:linux && npm run build:windows"
   },
   "author": "Di-Stream",
   "license": "CC-BY-4.0",
@@ -22,7 +23,7 @@
     "pkg": "^5.3.2"
   },
   "pkg": {
-    "assets": "node_modules/**/*",
+    "assets": ["node_modules/**/*"],
     "scripts": "src/**/*.js",
     "outputPath": "dist"
   }
