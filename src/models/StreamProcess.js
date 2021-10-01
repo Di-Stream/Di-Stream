@@ -41,17 +41,29 @@ class StreamProcess {
      * Creates the streaming process.
      * @private
      */
-    _createProcess() {
+  _createProcess() {
         logger.debug("Creating Process on url " + this.fullUrl);
         this._proc = cp.spawn('ffmpeg', [
+             '-fflags' ,'nobuffer',
+            '-probesize', '32',
+            '-re',
             '-i', '-',
-            '-fflags',
-            '-nobuffer',
-            '-f', 'mpegts',
-            this.fullUrl
+            '-c:v', 'libx264',
+            '-preset', 'ultrafast',
+            '-vf','scale=720:576',
+            '-f', 'rtp',
+            '-sdp_file', 'video.sdp',
+            'rtp://127.0.0.1:1234'
+
+
         ]);
         this._proc.stderr.setEncoding("utf8");
-        // this._proc.stderr.pipe(data);
+
+            /**
+             * If you want to have ffmpeg logs
+             */
+        //this._proc.stderr.on('data', (data) => {
+                        //console.log(data)})
     }
 
     /**
