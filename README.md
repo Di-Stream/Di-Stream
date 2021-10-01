@@ -191,7 +191,7 @@ Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.
 ## 8. Contributors
 
 
-[![](https://github.com/Cherrytomate.png?size=50)](https://github.com/Cherrytomate)
+[![](https://github.com/bischoffjeremy.png?size=50)](https://github.com/bischoffjeremy)
 [![](https://github.com/neilschuerch.png?size=50)](https://github.com/neilschuerch)
 
 
