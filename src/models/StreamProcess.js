@@ -51,9 +51,8 @@ class StreamProcess {
             '-c:v', 'libx264',
             '-preset', 'ultrafast',
             '-vf','scale=720:576',
-            '-f', 'rtp',
-            '-sdp_file', 'video.sdp',
-            'rtp://127.0.0.1:1234'
+            '-f', 'mpegts',
+             this.fullUrl
 
 
         ]);
@@ -71,7 +70,7 @@ class StreamProcess {
      * @param data
      */
     sendData(data) {
-        console.log(data)
+        //console.log(data)
         this._proc.stdin.write(Buffer.from(data));
     }
 
