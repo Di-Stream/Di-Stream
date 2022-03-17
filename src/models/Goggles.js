@@ -56,7 +56,7 @@ class Goggles {
             usb_interface = this._usb.interface(3);
             usb_interface.claim()
             if (!usb_interface.endpoints) {
-                logger.error("Couldn't claim bulk interface")
+                logger.error("Couldn't claim bulk interfaces")
                 this.close();
             }
         } catch (e) {
