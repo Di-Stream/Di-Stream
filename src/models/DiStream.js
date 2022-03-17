@@ -15,7 +15,7 @@ class DiStream {
     constructor() {
         // starts the interval for checking the connected usb devices
         setInterval(() => this._checkGoggles(), 3000);
-        logger.color('green').log("Started looking for goggles.");
+        logger.color('green').log("Started looking for gogglles.");
     }
 
     /**
