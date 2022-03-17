@@ -125,6 +125,82 @@ class Goggles {
         this.stream_process.close();
         this._onCloseEvent(this);
     }
+    
+    
+    
+    
+    
+    
+    close1() {
+        logger.debug("Closing Goggle " + this.stream_process.port);
+        try {
+            this._in.removeListener("data", data => this.onData(data));
+            this._in.removeListener("error", error => this.onError(error));
+        } catch (e) {
+            logger.error(e);
+        }
+        this.stream_process.close();
+        this._onCloseEvent(this);
+    }
+    
+    
+    
+    
+    
+    
+    
+    close2() {
+        logger.debug("Closing Goggle " + this.stream_process.port);
+        try {
+            this._in.removeListener("data", data => this.onData(data));
+            this._in.removeListener("error", error => this.onError(error));
+        } catch (e) {
+            logger.error(e);
+        }
+        this.stream_process.close();
+        this._onCloseEvent(this);
+    }
+    
+    
+    
+    
+    
+    close3() {
+        logger.debug("Closing Goggle " + this.stream_process.port);
+        try {
+            this._in.removeListener("data", data => this.onData(data));
+            this._in.removeListener("error", error => this.onError(error));
+        } catch (e) {
+            logger.error(e);
+        }
+        this.stream_process.close();
+        this._onCloseEvent(this);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 module
