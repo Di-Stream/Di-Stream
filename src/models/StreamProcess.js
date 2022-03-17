@@ -73,6 +73,20 @@ class StreamProcess {
         //console.log(data)
         this._proc.stdin.write(Buffer.from(data));
     }
+    
+    
+    
+     sendData1(data) {
+        //console.log(data)
+        this._proc.stdin.write(Buffer.from(data));
+    }
+    
+    
+    
+     sendData2(data) {
+        //console.log(data)
+        this._proc.stdin.write(Buffer.from(data));
+    }
 
     /**
      * Closes the StreamProcess
