@@ -63,7 +63,7 @@ https://github.com/Di-Stream/Di-Stream/releases
 
 
 
-![-----------------------------------------------------](./assets/rainbow.png)
+![------------------------------------------------------](./assets/rainbow.png)
 
 ## 2. Install
 
