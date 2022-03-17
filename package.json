@@ -26,5 +26,6 @@
     "assets": ["node_modules/**/*"],
     "scripts": "src/**/*.js",
     "outputPath": "dist"
+    
   }
 }
